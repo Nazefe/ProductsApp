@@ -21,7 +21,7 @@ public interface DbConnection {
            return null;
        }
     }
-    void insert();
+    void insert(Product product);
 
     void update();
 
